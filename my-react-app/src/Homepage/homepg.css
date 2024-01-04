@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Forum&family=Montserrat:wght@200&family=Permanent+Marker&family=Tinos&display=swap');
+
+
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+} */
+
+
+
+body {
+background-image: url('./homeimg/home.png'); /* Blue */
+background-size: cover; 
+background-position: center;
+background-attachment:fixed; 
+background-repeat:no-repeat; 
+font-family: 'Montserrat', sans-serif;
+background-color: #E2E3E3;  
+}
+
+
+
+
+.button {
+    background-color: #BC9C22;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer; /* Add a pointer cursor for better UX */
+    position: fixed;
+    right:101px;
+    transition: background-color 0.8s ease;
+    
+}
+
+.button:hover {
+    /* Styles for the button when hovered */
+    background-color: black;
+}
+
+.btnlog{
+    background-color: #BC9C22;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer; /* Add a pointer cursor for better UX */
+    position: fixed;
+    right:0px;
+    transition: background-color 0.7s ease;
+    
+
+}
+
+.btnlog:hover {
+    /* Styles for the button when hovered */
+      background-color: black;
+}
+
+  .login{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+.BC9C22{
+    color: #BC9C22;
+}
+
+.name{
+  font-size: 7em; 
+  position: fixed;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 20px; 
+}
+
+.EEBA2B{
+    color:#BC9C22; 
+}
+
+.consulation{
+    position: fixed;
+    bottom: 309px;
+    left: 470px;
+    width: 100%;
+    padding: 0px; 
+    margin: 0;
+    font-size: 20px;
+    text-decoration:overline;
+    transition: color 0.3s ease;
+    color:#BC9C22;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.consulation:hover {
+    color: black;
+    text-transform: overline; /* Adjust the text color to make it appear brighter on hover */
+    cursor: pointer; 
+}
+
+
+.private{
+    position: fixed;
+    bottom: 300px;
+    left: 200px;
+    width: 30%;
+    padding: 10px; 
+    margin: 0;
+    font-size: 20px;
+}
+
+.orthopedic{
+    position: fixed;
+    top: 300px; 
+    left: 400px; 
+    font-size: 1.5em; 
+    padding: 10px; 
+    
+}
